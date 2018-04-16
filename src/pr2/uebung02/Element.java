@@ -23,9 +23,9 @@ public interface Element {
 	/**
 	 * clones this Element
 	 *
-	 * @return a new Element with the same value
+	 * @return a new Object with the same value
 	 */
-	Element clone();
+	Object clone();
 	
 	/**
 	 * print out useful information of this {@link Element} like it's value
