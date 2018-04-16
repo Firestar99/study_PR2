@@ -31,9 +31,12 @@ public interface Element {
 	 * print out useful information of this {@link Element} like it's value
 	 */
 	void print();
-
-//	/**
-//	 * ignore this for now, will probably get removed
-//	 */
-//	Element getVal();
+	
+	/**
+	 * returns itself with
+	 * <code>
+	 * return this;
+	 * </code>
+	 */
+	Element getVal();
 }
